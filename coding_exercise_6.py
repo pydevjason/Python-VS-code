@@ -1,45 +1,35 @@
-# Define a same_first_and_last_letter function that accepts a string as an argument. 
-# The function should return a True if the first and last character are equal, and False otherwise
-# Assume the string will always have 1 or more characters.
+# Define a even_or_odd function that accepts a single integer.
+# If the integer is even, the function should return the string “even”.
+# If the integer is odd, the function should return the string “odd”.
 #
-# EXAMPLES:
-# same_first_and_last_letter("runner")   => True
-# same_first_and_last_letter("Runner")   => False
-# same_first_and_last_letter("clock")    => False
-# same_first_and_last_letter("q")        => True
+# even_or_odd(2)    => "even"
+# even_or_odd(0)    => "even"
+# even_or_odd(13)   => "odd"
+# even_or_odd(9)    => "odd"
 
-def same_first_and_last_letter(string):
-    return string[0] == string[-1]
+def even_or_odd(num):
+    if num % 2 == 0:
+        return "even"
+    elif num % 2 == 1:
+        return "odd"
+        
+print(even_or_odd(9))
 
-print(same_first_and_last_letter("runner"))
-print(same_first_and_last_letter("Runner"))
-print(same_first_and_last_letter("clock"))
-print(same_first_and_last_letter("q"))
 
-print()
+# Define a truthy_or_falsy function that accepts a single argument.
+# The function should return a string that reads "The value _____ is ______" 
+# where the first space is the argument and the second space 
+# is either 'truthy' or 'falsy'. See the sample invocations below.
+# 
+# truthy_or_falsy(0)        => "The value 0 is falsy"
+# truthy_or_falsy(5)        => "The value 5 is truthy"
+# truthy_or_falsy("Hello")  => "The value Hello is truthy"
+# truthy_or_falsy("")       => "The value  is falsy"
 
-# Define a three_number_sum function that accepts a 3-character string as an argument. 
-# The function should add up the sum of the digits of the string. 
-# HINT: You’ll have to figure out a way to convert the string-ified numbers to integers.
-#
-# EXAMPLES:
-# three_number_sum("123")   => 6
-# three_number_sum("567")   => 18
-# three_number_sum("444")   => 12
-# three_number_sum("000")   => 0
-
-# def three_number_sum(string):
-#     sums = 0
-#     for i in string:
-#         sums += int(i)
-#     return sums
-
-# print(three_number_sum("123"))
-
-def three_number_sum(number):
-    return int(number[0]) + int(number[1] + int(number[2]))
-
-print(three_number_sum("123"))
-
-# type conversion for three_number_sum results in TypeErrror VS code
-# I have the same solution as the solution instructor Boris shows, however, mine results in a TypeError..  need help
+def truthy_or_falsy(arg):
+    if arg:
+        return f"The value {arg} is truthy"
+    else:
+        return f"The value {arg} is falsy"
+    
+print(truthy_or_falsy(""))
