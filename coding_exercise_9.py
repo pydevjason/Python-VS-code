@@ -11,6 +11,7 @@ def first_and_last(str_list):
 
 print(first_and_last(["x", "y", "z"]))
 print(first_and_last(["eskimo", "excuses", "radon"]))
+print(first_and_last("i"))
 
 print()
 
