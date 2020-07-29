@@ -2,9 +2,9 @@
 # The function should return a concatenation of the first element and the last element. 
 # Assume the list will always have 1 or more elements.
 #
-# first_and_last(["a", "b", "c"])        => "ac"
-# first_and_last(["bob", "tom", "rob"])  => "bobrob"
-# first_and_last(["a"])                  => "aa"
+# first_and_last(["x", "y", "z"])        => "xz"
+# first_and_last(["eskimo", "excuses", "radon"])  => "eskimoradon"
+# first_and_last(["i"])                  => "ii"
 
 def first_and_last(str_list):
     return str_list[0] + str_list[-1]
