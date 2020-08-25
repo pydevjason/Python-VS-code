@@ -31,4 +31,4 @@ def fizz_buzz2(ending_number):
             print(current_number) 
         current_number += 1
         
-fizz_buzz2(31)
+fizz_buzz2(30)

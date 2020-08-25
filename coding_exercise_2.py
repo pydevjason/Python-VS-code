@@ -28,18 +28,21 @@ print()
 # three_number_sum("444")   => 12
 # three_number_sum("000")   => 0
 
-# def three_number_sum(string):
-#     sums = 0
-#     for i in string:
-#         sums += int(i)
-#     return sums
-
-# print(three_number_sum("123"))
-
-def three_number_sum(number):
-    return int(number[0]) + int(number[1] + int(number[2]))
+def three_number_sum(string):
+    sums = 0
+    for i in string:
+        sums += int(i)
+    return sums
 
 print(three_number_sum("123"))
+print(three_number_sum("567"))
+print(three_number_sum("444"))
+print(three_number_sum("000"))
+
+# def three_number_sum(number):
+#     return int(number[0]) + int(number[1] + int(number[2]))
+
+# print(three_number_sum("123"))
 
 # type conversion for three_number_sum results in TypeErrror VS code
 # I have the same solution as the solution instructor Boris shows, however, mine results in a TypeError..  need help

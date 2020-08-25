@@ -1,0 +1,8 @@
+{
+ "editor.detectIndentation": false,
+"editor.fontSize": 28,
+"code-runner.clearPreviousOutput": true,
+"code-runner.showExecutionMessage": false,
+"editor.fontWeight": "700",
+"terminal.integrated.shell.windows": ""
+}
