@@ -1,4 +1,4 @@
-fam = ["Stephanie", "Ethan", "Mom", "Dad", "Jim", "Jess"," Nathan", "Ian"]
+fam = ["Benny", "Harold", "Don", "Rudolph", "Johnson", "Jacko"," Dilbert", "Sophia"]
 print(fam)
 
 print()
