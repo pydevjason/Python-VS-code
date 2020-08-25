@@ -39,10 +39,9 @@ print(three_number_sum("567"))
 print(three_number_sum("444"))
 print(three_number_sum("000"))
 
-# def three_number_sum(number):
-#     return int(number[0]) + int(number[1] + int(number[2]))
+print()
 
-# print(three_number_sum("123"))
+def three_number_sum2(number):
+    return int(number[0]) + int(number[1]) + int(number[2])
 
-# type conversion for three_number_sum results in TypeErrror VS code
-# I have the same solution as the solution instructor Boris shows, however, mine results in a TypeError..  need help
+print(three_number_sum2("123"))
