@@ -1,0 +1,3 @@
+This is my first file.
+Isn't it great?!
+Just added a new line with the append parameter

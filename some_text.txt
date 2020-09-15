@@ -1,0 +1,6 @@
+This 
+is a 
+txt file used 
+for Python reading 
+and writing to files 
+for learning purposes
