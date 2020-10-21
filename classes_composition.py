@@ -3,6 +3,7 @@ class Paper():
         self.text = text
         self.case = case
 
+
 class Briefcase():
     def __init__(self, price):
         self.price = price
@@ -28,8 +29,8 @@ class Attorney():
         print(self.briefcase.view_notes())
 
 
-cheap_briefcase = Briefcase(price = 19.99)
-vato = Attorney(name = "Vato", briefcase = cheap_briefcase)
+cheap_briefcase = Briefcase(price=19.99)
+vato = Attorney(name="Vato", briefcase=cheap_briefcase)
 vato.write_note("my client is innocent!", "case 23")
 vato.write_note("I represent the Trump legal team!", "case 23")
 vato.view_notes()

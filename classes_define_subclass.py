@@ -1,17 +1,20 @@
 class Store():
-	def __init__(self):
-		self.owner = "Jason"
+    def __init__(self):
+        self.owner = "Jason"
 
-	def exclaim(self):
-		return "Lots of coffee to taste, come inside!"
+    def exclaim(self):
+        return "Lots of coffee to taste, come inside!"
+
 
 class CoffeeShop(Store):
-	pass
+    pass
+
 
 my_coffee_shop = CoffeeShop()
 print(my_coffee_shop.owner)
 print(my_coffee_shop.exclaim())
 print("\n")
+
 
 # Declare a HardwareStore subclass that inherits from the Store superclass.
 # Do not define any attributes and methods on the subclass. 
@@ -23,33 +26,15 @@ print("\n")
 class Store():
     def __init__(self):
         self.owner = "Boris"
-  
+
     def exclaim(self):
         return "I'm defined in the superclass!"
 
 
 class HardwareStore(Store):
-	pass
+    pass
+
 
 home_depot = HardwareStore()
 print(home_depot.owner)
 print(home_depot.exclaim())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
