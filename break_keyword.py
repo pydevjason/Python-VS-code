@@ -7,4 +7,4 @@ def target_number(num_list, number):
 	return number
 
 numbers = [1,2,3,4,5,6,7]
-print(target_number(numbers, 5))
+print(target_number(numbers, 2))
